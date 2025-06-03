@@ -4,7 +4,7 @@
 
 This Python script simulates two N-body scenarios of galaxy cluster mergers, each with 100 particles of \(10^{10}\) solar masses, modeling the formation of massive galaxies within a cluster. The simulations produce distinct outcomes: **Scenario 1** forms one central massive galaxy with satellite galaxies, while **Scenario 2** forms two massive galaxies with satellites. The dynamics are visualized as a GIF animation with two panels, showing particle positions and gravitational potential contours over 10 million years (Myr). The code uses NumPy for numerical computations, Matplotlib for visualization, and Pillow for GIF generation, suitable for astrophysical analysis and visualization.
 
-The simulation employs a simple Euler integrator with a softening length to avoid singularities, designed for short-term dynamics. It can be extended with advanced integrators (e.g., Verlet) or frameworks like AMUSE for long-term simulations, aligning with high-performance computing (HPC) workflows.
+The simulation employs a simple Euler integrator with a softening length to avoid singularities, designed for short-term dynamics. It can be extended with advanced integrators (e.g., Verlet) or frameworks for long-term simulations, aligning with high-performance computing (HPC) workflows.
 
 ![galaxy_merger_animation](https://github.com/user-attachments/assets/fc718a5d-5fce-4c6b-9cc9-b008edfabfeb)
 
@@ -57,4 +57,4 @@ The simulation employs a simple Euler integrator with a softening length to avoi
 
 ### Output
 - **File**: `galaxy_merger_animation.gif`
-- **Size
+Email: raouf@strw.leidenuniv.nl
